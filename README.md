@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/mwaz/api-mock-testing-with-nock.svg?style=svg)](https://circleci.com/gh/mwaz/api-mock-testing-with-nock)
+[![CircleCI](https://circleci.com/gh/CIRCLECI-GWP/api-testing-using-nock.svg?style=svg)](https://circleci.com/gh/CIRCLECI-GWP/api-testing-using-nock)
 
 <p align="center"><img src="https://avatars3.githubusercontent.com/u/59034516"></p>
 
