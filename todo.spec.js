@@ -56,7 +56,7 @@ describe("todo-app-barkend - tests without mocks", () => {
       }),
     };
 
-    await nock.enableNetConnect(/(todo-app-barkend)\.herokuapp.com/);
+    await nock.enableNetConnect(/(todo-app-barkend-b18308c4c059)\.herokuapp.com/);
     const res = await got.post(host, options);
     expect(JSON.parse(res.body)).to.have.property("task", "Cook Lunch");
   });

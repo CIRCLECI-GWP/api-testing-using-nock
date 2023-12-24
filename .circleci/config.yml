@@ -3,14 +3,9 @@ jobs:
   build:
     working_directory: ~/repo
     docker:
-      - image: cimg/node:10.16.3
+      - image: cimg/node:21.4.0
     steps:
       - checkout
-      - run:
-          name: update npm.
-          command: "npm install -g npm@5"
-      - restore_cache:
-          key: dependency-cache-{{ checksum "package-lock.json" }}
       - run:
           name: install dependencies
           command: npm install
@@ -22,4 +17,4 @@ jobs:
           name: run api mock tests
           command: npm test
       - store_artifacts:
-          path: ~/repo/api-mock-testing-with-nock
+          path: ~/repo/api-testing-using-nock
