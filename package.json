@@ -1,0 +1,19 @@
+{
+  "name": "todo-app-barkend-mock-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "got": "^11.8.2",
+    "jest": "^27.0.6",
+    "nock": "^13.1.0",
+    "ping": "^0.4.1"
+  }
+}
